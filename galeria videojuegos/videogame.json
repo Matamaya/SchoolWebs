@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "nombre": "Elden Ring",
+        "genero": "Aventura, RPG",
+        "plataforma": "PlayStation, Xbox, PC",
+        "calificacion": "⭐⭐⭐⭐",
+        "descripcion": "Embárcate en una épica aventura para desvelar los misterios del Elden Ring y derrotar a sus poderosos enemigos.",
+        "imagen": "img/elden ring.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "GTA San Andreas",
+        "genero": "Acción, Aventura",
+        "plataforma": "PlayStation, Xbox, PC",
+        "calificacion": "⭐⭐⭐⭐⭐",
+        "descripcion": "Vive la vida en el mundo abierto de San Andreas, tomando decisiones que afectarán tu destino en una ciudad llena de crimen y caos.",
+        "imagen": "img/gta.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Zelda: Breath of the Wild",
+        "genero": "Aventura, RPG",
+        "plataforma": "Nintendo Switch",
+        "calificacion": "⭐⭐⭐⭐⭐",
+        "descripcion": "Explora el vasto mundo de Hyrule, resuelve acertijos y combate para salvar a la princesa Zelda y restaurar el equilibrio.",
+        "imagen": "img/zelda.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Red Dead Redemption 2",
+        "genero": "Acción, Aventura",
+        "plataforma": "PlayStation, Xbox, PC",
+        "calificacion": "⭐⭐⭐⭐⭐",
+        "descripcion": "Sumérgete en el salvaje Oeste como Arthur Morgan, miembro de la banda Van der Linde, y lucha por tu supervivencia.",
+        "imagen": "img/red.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "The Witcher III: Wild Hunt",
+        "genero": "RPG, Aventura",
+        "plataforma": "PlayStation, Xbox, PC, Nintendo Switch",
+        "calificacion": "⭐⭐⭐⭐⭐",
+        "descripcion": "Acompaña a Geralt de Rivia en su búsqueda para encontrar a su hija, mientras lucha contra monstruos y toma decisiones que cambian el destino del mundo.",
+        "imagen": "img/witcher.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Sekiro: Shadows Die Twice",
+        "genero": "Acción, Aventura, Hack and Slash",
+        "plataforma": "PlayStation, Xbox, PC",
+        "calificacion": "⭐⭐⭐⭐⭐",
+        "descripcion": "Toma el control de un samurái en busca de venganza en el Japón feudal, enfrentando desafíos letales y un sistema de combate basado en la precisión.",
+        "imagen": "img/sekiro.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Hades",
+        "genero": "Roguelike, Acción",
+        "plataforma": "PC, Nintendo Switch, PlayStation, Xbox",
+        "calificacion": "⭐⭐⭐⭐⭐",
+        "descripcion": "Escapa del inframundo como Zagreus, el hijo de Hades, mientras enfrentas a numerosos enemigos en un combate rápido y dinámico.",
+        "imagen": "img/hades.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "God of War: Ragnarok",
+        "genero": "Acción, Aventura",
+        "plataforma": "PlayStation 4, PlayStation 5",
+        "calificacion": "⭐⭐⭐⭐",
+        "descripcion": "Acompaña a Kratos y Atreus en su viaje por los reinos nórdicos mientras enfrentan a dioses y monstruos, luchando por evitar el fin del mundo.",
+        "imagen": "img/god.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Minecraft",
+        "genero": "Sandbox, Supervivencia",
+        "plataforma": "PC, PlayStation, Xbox, Nintendo Switch, Móviles",
+        "calificacion": "⭐⭐⭐⭐⭐",
+        "descripcion": "Crea, explora y sobrevive en un mundo generado por bloques, donde la única limitación es tu imaginación.",
+        "imagen": "img/mine.jpeg"
+    }
+]

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body> 
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mi Galería de Videojuegos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#main">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--MAIN-->
+    <div class="container text-center text-white my-4" id="main">
+        <h1 class="display-4">Galería de Videojuegos</h1>
+        <p class="lead">Explora una selección de videojuegos populares</p>
+    </div>
+
+    <!--VIDEOJUEGOS-->
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+
+
+            <!-- Modal: Elden Ring -->
+        <div class="modal fade" id="modalVideojuego1" tabindex="-1" aria-labelledby="modalVideojuegoEldenRingLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content bg-dark text-white">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalVideojuegoEldenRingLabel">
+                            Detalles del Videojuego: Elden Ring
+                        </h5>
+                        <button type="button text-white" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <!--<i class="fas fa-gamepad fa-2x"></i>-->
+
+                    </div>
+                    <div class="modal-body">
+                        <img src="gifs/erdtreen.gif" style="height:300px; width:100%; margin-bottom:1em;">
+                        <br><br>
+                        <h4>Características Especiales</h4>
+                        <ul>
+                            <li>Mundo abierto interconectado con narrativa.</li>
+                            <li>Combate desafiante y personalización de clases.</li>
+                            <li>Influencia de George R.R. Martin en la narrativa.</li>
+                        </ul>
+                        <h4>Requisitos mínimos</h4>
+                        <ul>
+                            <li>Procesador: Intel Core i5-8400 o AMD Ryzen 3 3300X.</li>
+                            <li>RAM: 8 GB.</li>
+                            <li>Almacenamiento: 60 GB.</li>
+                        </ul>
+                        <h4>Opiniones</h4>
+                        <ul>
+                            <li>"Es como si Dark Souls se fusionara con Skyrim. Brutal en todos los sentidos."</li>
+                            <li>"El combate es un reto constante, pero cada victoria se siente épica."</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                            Cerrar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal: GTA San Andreas -->
+        <div class="modal fade" id="modalVideojuego2" tabindex="-1" aria-labelledby="modalVideojuegoGTASanAndreasLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalVideojuegoGTASanAndreasLabel">
+                            Detalles del Videojuego: GTA San Andreas
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="gifs/mod2.jpg" style="height:300px; width:100%; margin-bottom:1em;">
+                        <br><br>
+                        <h4>Características Especiales</h4>
+                        <ul>
+                            <li>Extenso mapa inspirado en California.</li>
+                            <li>Personalización de vehículos, ropa y habilidades.</li>
+                            <li>Sistema de pandillas y respeto.</li>
+                        </ul>
+                        <h4>Requisitos mínimos</h4>
+                        <ul>
+                            <li>Procesador: 1 GHz Pentium III o AMD Athlon.</li>
+                            <li>RAM: 256 MB.</li>
+                            <li>Almacenamiento: 3.6 GB.</li>
+                        </ul>
+                        <h4>Opiniones</h4>
+                        <ul>
+                            <li>"El rey de los sandbox clásicos, sigue siendo un viaje nostálgico."</li>
+                            <li>"CJ y Grove Street marcaron mi infancia gamer. Un clásico atemporal."</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                            Cerrar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal: Zelda BOTW -->
+        <div class="modal fade" id="modalVideojuego3" tabindex="-1" aria-labelledby="modalVideojuegoZeldaBOTWLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalVideojuegoZeldaBOTWLabel">
+                            Detalles del Videojuego: Zelda BOTW
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="gifs/zelda.gif" style="height:300px; width:100%; margin-bottom:1em;">
+                        <h4>Características Especiales</h4>
+                        <ul>
+                            <li>Mundo abierto con física avanzada e interacciones ambientales.</li>
+                            <li>Diseño no lineal que fomenta la exploración.</li>
+                            <li>Complejas mecánicas de supervivencia.</li>
+                        </ul>
+                        <h4>Requisitos mínimos</h4>
+                        <ul>
+                            <li>Plataforma: Nintendo Switch.</li>
+                            <li>Requiere consola o emulador de PC con hardware potente.</li>
+                        </ul>
+                        <h4>Opiniones</h4>
+                        <ul>
+                            <li>"Cada rincón es una aventura en sí misma. Libertad total para explorar."</li>
+                            <li>"Es como si te dieran un juguete y te dijeran: 'Haz lo que quieras'. Maravilloso."</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                            Cerrar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal: Red Dead Redemption II -->
+        <div class="modal fade" id="modalVideojuego4" tabindex="-1" aria-labelledby="modalVideojuegoRDR2Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalVideojuegoRDR2Label">
+                            Detalles del Videojuego: Red Dead Redemption II
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="gifs/red.gif" style="height:300px; width:100%; margin-bottom:1em;">
+                        <h4>Características Especiales</h4>
+                        <ul>
+                            <li>Mundo abierto hiperrealista basado en el Viejo Oeste.</li>
+                            <li>Narrativa rica con personajes complejos.</li>
+                            <li>Sistema moral que afecta el desarrollo de la historia.</li>
+                        </ul>
+                        <h4>Requisitos mínimos</h4>
+                        <ul>
+                            <li>Procesador: Intel Core i5-2500K o AMD FX-6300.</li>
+                            <li>RAM: 8 GB.</li>
+                            <li>Almacenamiento: 150 GB.</li>
+                        </ul>
+                        <h4>Opiniones</h4>
+                        <ul>
+                            <li>"Una obra maestra. Es como vivir en un western de Sergio Leone."</li>
+                            <li>"Arthur Morgan es uno de los mejores personajes que ha dado el gaming."</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                            Cerrar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        <!-- Modal: The Witcher III -->
+        <div class="modal fade" id="modalVideojuego5" tabindex="-1" aria-labelledby="modalVideojuegoTheWitcher3Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalVideojuegoTheWitcher3Label">
+                            Detalles del Videojuego: The Witcher III
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="gifs/witcher.gif" style="height:300px; width:100%; margin-bottom:1em;">
+                        <h4>Características Especiales</h4>
+                        <ul>
+                            <li>Historia inmersiva basada en los libros de Andrzej Sapkowski.</li>
+                            <li>Extensos mapas abiertos con una variedad de ecosistemas.</li>
+                            <li>Combate dinámico con alquimia y hechicería.</li>
+                        </ul>
+                        <h4>Requisitos mínimos</h4>
+                        <ul>
+                            <li>Procesador: Intel Core i5-2500K o AMD Phenom II X4 940.</li>
+                            <li>RAM: 6 GB.</li>
+                            <li>Almacenamiento: 35 GB.</li>
+                        </ul>
+                        <h4>Opiniones</h4>
+                        <ul>
+                            <li>"El mejor RPG de fantasía, no hay discusión."</li>
+                            <li>"Las elecciones importan, y el mundo responde a tus acciones de forma orgánica."</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                            Cerrar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal: Sekiro -->
+        <div class="modal fade" id="modalVideojuego6" tabindex="-1" aria-labelledby="modalVideojuegoSekiroLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalVideojuegoSekiroLabel">
+                            Detalles del Videojuego: Sekiro
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="gifs/sekiro.gif" style="height:300px; width:100%; margin-bottom:1em;">
+
+                        <h4>Características Especiales</h4>
+                        <ul>
+                            <li>Sistema de combate basado en posturas y parry.</li>
+                            <li>Sigilo como opción estratégica.</li>
+                            <li>Ambientación en el Japón del período Sengoku.</li>
+                        </ul>
+                        <h4>Requisitos mínimos</h4>
+                        <ul>
+                            <li>Procesador: Intel Core i3-2100 o AMD FX-6300.</li>
+                            <li>RAM: 4 GB.</li>
+                            <li>Almacenamiento: 25 GB.</li>
+                        </ul>
+                        <h4>Opiniones</h4>
+                        <ul>
+                            <li>"Desafiante, pero recompensa la paciencia y la precisión."</li>
+                            <li>"El combate es como un baile mortal. Difícil pero gratificante."</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                            Cerrar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal: Hades -->
+        <div class="modal fade" id="modalVideojuego7" tabindex="-1" aria-labelledby="modalVideojuegoHadesLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalVideojuegoHadesLabel">
+                            Detalles del Videojuego: Hades
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="gifs/hades.gif" style="height:300px; width:100%; margin-bottom:1em;">
+                        <h4>Características Especiales</h4>
+                        <ul>
+                            <li>Rogue-like con una narrativa progresiva.</li>
+                            <li>Combate rápido y dinámico.</li>
+                            <li>Estilo visual vibrante y banda sonora épica.</li>
+                        </ul>
+                        <h4>Requisitos mínimos</h4>
+                        <ul>
+                            <li>Procesador: Dual Core 2.4 GHz.</li>
+                            <li>RAM: 4 GB.</li>
+                            <li>Almacenamiento: 15 GB.</li>
+                        </ul>
+                        <h4>Opiniones</h4>
+                        <ul>
+                            <li>"Nunca pensé que un rogue-like podría tener esta narrativa."</li>
+                            <li>"Cada muerte me hace querer más. Es adictivo."</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                            Cerrar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal: God of War: Ragnarök -->
+        <div class="modal fade" id="modalVideojuego8" tabindex="-1" aria-labelledby="modalVideojuegoGoWRagnarokLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalVideojuegoGoWRagnarokLabel">
+                            Detalles del Videojuego: God of War: Ragnarök
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="gifs/kratos.gif" style="height:300px; width:100%; margin-bottom:1em;">
+                        <h4>Características Especiales</h4>
+                        <ul>
+                            <li>Narrativa épica basada en la mitología nórdica.</li>
+                            <li>Combate visceral con enfoque en el hacha Leviatán.</li>
+                            <li>Gráficos espectaculares y evolución de los personajes.</li>
+                        </ul>
+                        <h4>Requisitos mínimos</h4>
+                        <ul>
+                            <li>Plataforma: PS4 o PS5.</li>
+                            <li>Requiere la consola con las actualizaciones más recientes.</li>
+                        </ul>
+                        <h4>Opiniones</h4>
+                        <ul>
+                            <li>"Kratos nunca había sido tan humano, y la mitología nórdica nunca había sido tan espectacular."</li>
+                            <li>"La evolución de los personajes es tan importante como el combate."</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                            Cerrar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal: Minecraft -->
+        <div class="modal fade" id="modalVideojuego9" tabindex="-1" aria-labelledby="modalVideojuegoMinecraftLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalVideojuegoMinecraftLabel">
+                            Detalles del Videojuego: Minecraft
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="gifs/mine.gif" style="height:300px; width:100%; margin-bottom:1em;">
+                        <h4>Características Especiales</h4>
+                        <ul>
+                            <li>Creatividad ilimitada con modos de supervivencia y creativo.</li>
+                            <li>Mundo generado proceduralmente.</li>
+                            <li>Multijugador y soporte de mods.</li>
+                        </ul>
+                        <h4>Requisitos mínimos</h4>
+                        <ul>
+                            <li>Procesador: Intel Core i3-3210 o AMD A8-7600.</li>
+                            <li>RAM: 4 GB.</li>
+                            <li>Almacenamiento: 1 GB.</li>
+                        </ul>
+                        <h4>Opiniones</h4>
+                        <ul>
+                            <li>"Un sandbox que no tiene límites. Perfecto para todas las edades."</li>
+                            <li>"Siempre hay algo nuevo que construir o explorar. Un clásico que no pasa de moda."</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                            Cerrar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+    <script src="carga.js"></script>
+
+
+     <!-- Footer -->
+    <footer id="footer" class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Galería de Videojuegos. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>

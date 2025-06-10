@@ -83,7 +83,7 @@ body {
     align-items: center;
     height: 100vh;
     /*Buscar que es esto*/
-    background-image: url('/img/back.jpg');
+    background-image: url('img/back.jpg');
     background-size: cover;
     background-position: center;
     color: white;

@@ -1,0 +1,249 @@
+/* Global Styles */
+body {
+    background-color: #000;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family:"Bebas Neue", serif;
+    font-style: normal;
+}
+
+h1{
+    font-weight:550;
+    font-size:20vh;
+    text-align: center;
+    margin:2%;
+    color: #000;
+}
+
+h2 {
+    font-size: 5rem;
+    margin: 20px;
+    color: #ffaa00;
+}
+p {
+    font-size:2em;
+    line-height: 1.5;
+    font-family: "Open Sans",serif;
+    font-weight: 600;
+    padding:3em;
+}
+
+section{
+    margin:5em 1em;
+
+}
+
+span.highlight {
+    background-color:#ffaa00;
+    color: #000000;
+    padding:5px;
+    height: fit-content;
+}
+
+.highlight2{
+    background-color:#000000;
+    color:#ffaa00;
+    padding:2px 50px;
+    height: fit-content;
+}
+
+/* Header */
+header{
+    margin-bottom:10em;
+    background-color: #ffaa00;
+    h1{
+        margin:0;
+    }
+
+}
+.logo {
+    margin:1em;
+    height: 7vh;
+    width:11vh;
+    filter: brightness(0);
+}
+
+
+
+/* Section 1*/
+.rectangle0 {
+   /* background: linear-gradient(90deg, #ff4800, #ff7300, #ffea00);*/
+    height:25vh;
+    color: #090909;
+    background-color: #ffaa00;
+}
+
+.mision {
+    max-height:500px;
+    padding:0.5em;
+    p{
+        padding-top:0.5em;
+    }
+}
+
+.globo{
+    filter:invert!important;
+}
+
+.leo{
+    max-height:700px;
+}
+
+
+
+/* Section: Presentación */
+.presentacion{  
+    display:flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.texto {
+    width:500px;
+    h2{
+        color:black;
+        background-color: #ffaa00!important;
+    }
+    p{
+        padding:1em;
+    }
+    flex: 1;
+}
+
+.imagenes{
+    margin:0px 20px 0px 70px;
+    img{
+        height:470px;
+    }
+}
+
+.img1{
+    position: relative; /* Permite usar top, left, etc. */
+    top:-150px;
+    margin: 0;
+}
+.img2{
+    margin: 0;
+    position: relative;
+    bottom:-10px;
+}
+
+/*seccion galeria*/
+.galeria{
+    text-align: left;
+    display:flex;
+    gap:5px;
+}
+
+.texto2{
+    h2{
+        text-align: center;
+        color:black;
+        background-color: #ffaa00!important;
+        padding:10px;
+    }
+    p{
+        padding:1em;
+    }
+}
+
+.imagen img {
+    max-width:27%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.imagen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+/*seccion beneficios*/
+.beneficios {
+    margin:200px 0;
+    h2{
+        margin: 0;
+        height:15vh;
+        color: #090909;
+        background-color: #ffaa00;
+        text-align: left;
+        padding:10px;
+        width: 100%;
+    }
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;    
+    }
+
+    li {
+        /*background: linear-gradient(90deg, #ffaa00, #ff5e00);*/
+        background-color: #ffaa00;
+        padding: 10px;
+        margin: 10px;
+        border-radius:10px;
+        width:350px;
+        height:200px;
+        display: flex;
+        font-size:35px;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.contenedor {
+    display: flex; /* Activa flexbox */
+    align-items: center; /* Alinea verticalmente */
+    gap: 10px; /* Espacio entre los elementos */
+  }
+  
+  .leo img {
+    width:50%; /* Ajusta el tamaño de la imagen */
+    height: auto;
+  }
+  
+  .texto3 {
+    max-width:60%; /* Ajusta el ancho del texto */
+  }
+
+
+footer{
+    padding:2em;
+    /*background: linear-gradient(90deg, #ff5e00, #ffaa00);*/
+    background-color: #ffaa00;
+    color:black;
+
+    max-height:20em;
+    img{
+        height:40px;
+        filter: brightness(0);
+    }
+}
+
+.choose{
+    margin: 0;
+    background-color: #000000;
+    height:150px;
+    transform: skewY(-3deg);
+}
+
+
+.rectangle {
+    margin: 0;
+    background-color: #000000;
+    height:20px;
+    transform: skewY(-3deg);
+}
+
+.rectangle2 {
+    background-color: #ffaa00;
+    height: 20px;
+    margin:0;
+    transform: skewY(-3deg);
+    width:100%;
+}

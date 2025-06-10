@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habitats - Pokédex</title>
+    <link rel="stylesheet" href="styless.css">
+    <script src="poke.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav-logo">
+                <img src="img/pokedex-icon.jpg" alt="Logo Pokédex">
+                <p>POKÉDEX</p>
+              </div>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html" class="btn btn-header">Home</a></li>
+                <li class="nav-item"><a href="habitats.html" class="btn btn-header">Habitats</a></li>
+                <li class="nav-item"><a href="objetos.html" class="btn btn-header">Objetos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="habitat-title">Habitats de los Pokémon</h1>
+        <div class="habitat-container">
+            <button class="habitat" id="forest">
+                <img src="img/forest.jpg" class="imghabitat" alt="Bosque">
+                <img src="img/text-forest.png" class= "textopokemon" alt="forest txt">
+            </button>
+            <button class="habitat" id="cave">
+                <img src="img/cave.jpg" class="imghabitat" alt="Cueva">
+                <img src="img/text-cave.png" class= "textopokemon" alt="cave txt">
+            </button>
+            <button class="habitat" id="sea">
+                <img src="img/sea.jpg" class="imghabitat" alt="Mar">
+                <img src="img/text-sea.png" class= "textopokemon" alt="sea txt">
+            </button>
+            <button class="habitat" id="mountain">
+                <img src="img/mountain.jpg" class="imghabitat" alt="Montaña">
+                <img src="img/text-mountain.png" class= "textopokemon" alt="mountain txt">
+
+            </button>
+            <button class="habitat" id="grassland">
+                <img src="img/grasslands.jpg" class="imghabitat" alt="Pradera">
+                <img src="img/text-Grassland.png" class= "textopokemon" alt="grassland txt">
+
+            </button>
+            <button class="habitat" id="urban">
+                <img src="img/city.jpg" class="imghabitat" alt="Ciudad">
+                <img src="img/text-urban.png" class= "textopokemon" alt="urban txt">
+            </button>
+            <button class="habitat" id="rough-terrain">
+                <img src="img/campo.jpg" class="imghabitat" alt="Campo">
+                <img src="img/text-Rocky.png" class= "textopokemon" alt="rocky txt">
+
+            </button>
+            <button class="habitat" id="waters-edge">
+                <img src="img/riverland.jpg" class="imghabitat" alt="Agua dulce">
+                <img src="img/text-FreshWater.png" class= "textopokemon" alt="freshwaters txt">
+
+            </button>
+            <button class="habitat" id="rare">
+                <img src="img/mistic-rare.jpg" class="imghabitat" alt="Especial">
+                <img src="img/text-rare.png" class= "textopokemon" alt="rare txt">
+            </button>
+        </div>
+
+        <div id="habitNames"></div>
+        <div id="todos">
+            <div class="pokemon-todos" id="habitatPokemonList">
+            
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>

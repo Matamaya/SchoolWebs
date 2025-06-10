@@ -1,0 +1,12 @@
+.json(): Convierte la respuesta HTTP en un objeto JavaScript usando 
+
+.slice(0,n)
+
+.push(): agrega uno o más elementos al final del array
+
+.join():  une todos los elementos de un array en un string.
+
+offset: significa algo como punto de inicio, en Apis significa cuántos elementos debemos saltar antes de comenzar a devolver resultados
+
+new Audio -> objeto tipo Audio 
+audio.play -> propiedad del objeto, para reproducir el sonido

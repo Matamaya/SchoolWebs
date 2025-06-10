@@ -1,0 +1,232 @@
+body {
+    background-color: #000;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 8%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.content {
+    padding: 30px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 3rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.mission-box {
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    font-family:"Montserrat", serif;
+    font-weight: 400;
+    font-style:italic;
+    font-size:17vh;
+    margin:4px;
+}
+
+.banner {
+    /*background: linear-gradient(90deg, #ff5e00, #ffd000);*/
+    border-bottom: 5px solid #000000;
+    font-family: "Protest Revolution", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size:200px;
+    color:#ffd000;
+}
+
+.rectangle {
+    padding:3px 3px;
+    background: linear-gradient(90deg, #ff4800, #ff7300, #ffea00);
+    height: 300px;
+    color:#090909;
+}
+
+.presentacion img,
+.imagenes img {
+    max-width: 20%;
+    border-radius: 10px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.imagenes img:hover {
+    transform: scale(1.1);
+}
+
+.logo{
+    /*filter: brightness(0);*/
+    padding-top: 2%;
+    height:5vh;
+}
+.beneficios{
+    margin-top: 5%;
+}
+.beneficios ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.beneficios li {
+    background: linear-gradient(90deg, #ffaa00, #ff5e00);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 405px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:30px;
+}
+
+.uno{
+    margin-top: 3%;
+}
+
+.dos{
+    margin-top: 3%;
+}
+
+.testimonios{
+    margin-top: 5%;
+}
+
+.cta{
+    margin-top: 5%;
+}
+.cta-button {
+    background: linear-gradient(90deg, #ff5e00, #ffaa00);
+    color: #000;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background: linear-gradient(90deg, #ff5e00, #ffaa00);
+    transform: scale(1.05);
+}
+
+#notification-container {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(90deg, #ff5e00, #ffaa00);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.hero {
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style:italic;
+}
+.hero h1 {
+    color:yellow;
+    font-size: 10rem;
+    text-transform: uppercase;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.rectangle {
+    background-color: #ff6200;
+    height: 300px;
+    margin-top: 20px;
+    transform: skewY(-2deg);
+}
+.rectangle2 {
+    background-color: yellow;
+    height: 100px;
+    margin-top: 20px;
+    transform: skewY(-2deg);
+}
+
+.content {
+    padding: 30px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 3rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.mission-box {
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 800px;
+    text-align: center;
+}
+
+
+.left {
+    position: relative!important;
+    left: 20px;
+    opacity: 0.3;
+    transform: rotate(15deg);
+    bottom:-100%;
+    height:500px;
+    width:500px;
+}
+
+.right {
+    position: relative!important;
+    right: 20px;
+    transform: rotate(20deg);
+}
+
+span.highlight {
+    background-color: #ff6200; /* Amarillo */
+    color: black; /* Color del texto */
+    font-weight: bold;
+}
+
+.jaguar{
+    filter: invert();
+    height: 750px;
+    transform: rotate(-30deg);
+
+}
